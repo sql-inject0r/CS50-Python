@@ -1,0 +1,18 @@
+# creating an empty set - 
+
+s = set()
+
+# Adding elements - 
+s.add(1)
+s.add(2)
+s.add(3)
+s.add(4)
+
+print(s)
+
+# Removing items from a set - 
+s.remove(2)
+print(s)
+
+
+print(f"the set s has {len(s)} many elements !")
